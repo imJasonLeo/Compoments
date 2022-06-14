@@ -11,6 +11,10 @@ p {
     margin: 0;
 }
 
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
 img {
     max-width: 100%;
     display: block;
@@ -20,7 +24,8 @@ img {
     // Positioning of Div
     margin: auto;
     margin-top: 20%;
-    width: 20%;
+    max-width: 20em;
+    min-width: 15em;
     border: 3px solid;
 
     //Text
@@ -29,4 +34,19 @@ img {
 
 .btn {
     display: block;
+}
+
+.Banner {
+    margin-bottom: 3em;
+}
+
+.Blurb {
+    margin: 1em 0;
+}
+
+.Plan {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 1em;
 }
