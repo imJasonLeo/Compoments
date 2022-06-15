@@ -21,17 +21,36 @@ img {
   display: block;
 }
 
+.botMarg {
+  margin-bottom: 1.5em;
+}
+
 .Order__Summary {
   margin: auto;
-  margin-top: 20%;
-  max-width: 20em;
-  min-width: 15em;
-  border: 3px solid;
+  margin-top: 20em;
+  width: 25em;
   text-align: center;
 }
 
 .btn {
   display: block;
+  text-decoration: none;
+  color: white;
+  background-color: #382ae1;
+  padding: 1em;
+  border-radius: 1em;
+  -webkit-box-shadow: 100px 100px;
+          box-shadow: 100px 100px;
+}
+
+.altButton {
+  text-decoration: none;
+  color: #9da3b1;
+  font-weight: 700;
+}
+
+.container {
+  margin: 0 2em;
 }
 
 .Banner {
@@ -40,6 +59,8 @@ img {
 
 .Blurb {
   margin: 1em 0;
+  padding: 0 1em;
+  line-height: 1.7em;
 }
 
 .Plan {
@@ -53,5 +74,30 @@ img {
       -ms-flex-pack: center;
           justify-content: center;
   margin-bottom: 1em;
+  padding: 1.5em;
+  background: #f8f9fe;
+  border-radius: 0.8em;
+}
+
+.musicIcon {
+  width: 2.5em;
+  margin-right: 1em;
+}
+
+.Info {
+  margin-right: 4em;
+  line-height: 1.5em;
+}
+
+.bold {
+  font-weight: 700;
+}
+
+.accent {
+  color: #382ae1;
+}
+
+.thin {
+  color: #9da3b1;
 }
 /*# sourceMappingURL=main.css.map */
