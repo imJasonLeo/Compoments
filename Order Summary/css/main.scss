@@ -26,15 +26,20 @@ img {
 
 .Order__Summary {
     // Positioning of Div
+    position: relative;
     margin: auto;
-    margin-top: 20em;
+    margin-top: 8em;
     width: 25em;
-    // border: 3px solid;
+    box-shadow: 0 0 10em #dde0e6;
 
     //Text
     text-align: center;
+    border-radius: 1em;
+}
 
-    // box-shadow: 20px 20px;
+.Banner {
+    border-top-left-radius: 1em;
+    border-top-right-radius: 1em;
 }
 
 .btn {
@@ -47,13 +52,31 @@ img {
     padding: 1em;
     border-radius: 1em;
 
-    box-shadow: 100px 100px;
+    transition: ease-in-out 250ms;
+
+    // box-shadow: 100px 100px;
+}
+
+.btn:hover,
+.bth:focus {
+    transform: scale(1.1);
+    background-color: #dcd8ff;
+    color: #776de0;
 }
 
 .altButton {
+    display: block;
     text-decoration: none;
     color: #9da3b1;
     font-weight: 700;
+
+    padding-bottom: 1.5em;
+    transition: ease-in-out 250ms;
+}
+
+.altButton:hover,
+.altButton:focus {
+    text-decoration: underline;
 }
 
 .container {
@@ -61,7 +84,7 @@ img {
 }
 
 .Banner {
-    margin-bottom: 3em;
+    margin-bottom: 2em;
 }
 
 .Blurb {
@@ -79,7 +102,6 @@ img {
 
     background: #f8f9fe;
     border-radius: 0.8em;
-
 }
 
 .musicIcon {

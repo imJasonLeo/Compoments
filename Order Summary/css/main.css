@@ -26,10 +26,19 @@ img {
 }
 
 .Order__Summary {
+  position: relative;
   margin: auto;
-  margin-top: 20em;
+  margin-top: 8em;
   width: 25em;
+  -webkit-box-shadow: 0 0 10em #dde0e6;
+          box-shadow: 0 0 10em #dde0e6;
   text-align: center;
+  border-radius: 1em;
+}
+
+.Banner {
+  border-top-left-radius: 1em;
+  border-top-right-radius: 1em;
 }
 
 .btn {
@@ -39,14 +48,31 @@ img {
   background-color: #382ae1;
   padding: 1em;
   border-radius: 1em;
-  -webkit-box-shadow: 100px 100px;
-          box-shadow: 100px 100px;
+  -webkit-transition: ease-in-out 250ms;
+  transition: ease-in-out 250ms;
+}
+
+.btn:hover,
+.bth:focus {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  background-color: #dcd8ff;
+  color: #776de0;
 }
 
 .altButton {
+  display: block;
   text-decoration: none;
   color: #9da3b1;
   font-weight: 700;
+  padding-bottom: 1.5em;
+  -webkit-transition: ease-in-out 250ms;
+  transition: ease-in-out 250ms;
+}
+
+.altButton:hover,
+.altButton:focus {
+  text-decoration: underline;
 }
 
 .container {
@@ -54,7 +80,7 @@ img {
 }
 
 .Banner {
-  margin-bottom: 3em;
+  margin-bottom: 2em;
 }
 
 .Blurb {
