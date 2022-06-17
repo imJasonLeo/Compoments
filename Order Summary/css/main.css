@@ -50,6 +50,8 @@ img {
   border-radius: 1em;
   -webkit-transition: ease-in-out 250ms;
   transition: ease-in-out 250ms;
+  -webkit-box-shadow: 0 1em 1em #e4e2f8;
+          box-shadow: 0 1em 1em #e4e2f8;
 }
 
 .btn:hover,
