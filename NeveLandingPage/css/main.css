@@ -1,6 +1,7 @@
 :root {
   --clrGrey: #EDEDED;
   --clrWhite: #FFFFFF;
+  --clrYellow: #FAB54C;
 }
 
 *,
@@ -11,13 +12,21 @@
   margin: 0;
 }
 
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
 img {
   max-width: 100%;
   display: block;
 }
 
 header {
-  background: var(--clrGrey);
+  background: var(--clrWhite);
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -27,6 +36,46 @@ header {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  padding: 2em 20%;
+  padding: 1em 15%;
+}
+
+.brand {
+  min-width: 4em;
+  max-width: 4em;
+  cursor: pointer;
+}
+
+.menu {
+  list-style: none;
+  margin-left: 30em;
+}
+
+.menu li {
+  display: inline-block;
+  padding: 0 .5em;
+}
+
+.menu li a {
+  font-size: .9em;
+  text-transform: uppercase;
+  -webkit-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+}
+
+.menu li a img {
+  width: 1em;
+}
+
+.menu li a:hover {
+  color: var(--clrYellow);
+}
+
+.cta {
+  background-color: var(--clrYellow);
+  font-size: 1em;
+  text-transform: capitalize;
+  padding: 1em 2em;
+  border-radius: .3em;
+  font-weight: 500;
 }
 /*# sourceMappingURL=main.css.map */
