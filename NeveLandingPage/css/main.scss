@@ -25,43 +25,43 @@ img {
 }
 
 header {
-    background: var(--clrWhite);
+    padding: 1rem 15rem;
+}
+
+.navbar {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 1em 15%;
 }
 
-.brand {
-    min-width: 4em;
-    max-width: 4em;
-    cursor: pointer;
+.nav-icon {
+    width: 1rem;
+}
+
+.logo {
+    min-width: 3rem;
+    max-width: 4rem;
+    // margin: 0 5rem;
 }
 
 .menu {
     list-style: none;
-    // Look into using clamp()
-    margin-left: 30em;
-    // justify-content: center;
+    display: flex;
+    align-items: center;
 }
 
 .menu li {
-    display: inline-block;
-    padding: 0 .5em;
+    margin: 0 .7rem;
+    display: block;
 }
 
 .menu li a {
-    font-size: .9em;
-    text-transform: uppercase;
-    transition: all 0.3s ease 0s;
-}
-
-.menu li a img {
-    width: 1em;
+    text-decoration: none;
+    color: black;
 }
 
 .menu li a:hover {
-    color: var(--clrYellow)
+    color: var(--clrYellow);
 }
 
 .cta {
@@ -71,4 +71,5 @@ header {
     padding: 1em 2em;
     border-radius: .3em;
     font-weight: 500;
+    margin-left: 2rem;
 }
