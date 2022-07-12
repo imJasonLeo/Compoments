@@ -31,9 +31,10 @@ header {
 }
 
 .container {
-  width: 70%;
   max-width: 85em;
+  min-width: none;
   margin: 0 auto;
+  padding: 0 1rem;
 }
 
 .navbar {
@@ -178,9 +179,6 @@ header {
 .features .container .left img {
   max-width: 30vw;
   min-width: 10vw;
-  height: 30vw;
-  -o-object-fit: cover;
-     object-fit: cover;
 }
 
 .features .container .right h1 {
