@@ -127,3 +127,25 @@ header {
     font-size: 1.2em;
     margin-bottom: 4rem;
 }
+
+.benefits .container {
+    margin-top: 5rem;
+    text-align: center;
+    display: flex;
+
+    div {
+        h2 {
+            margin-bottom: 2rem;
+            text-transform: capitalize;
+        }
+
+        img {
+            width: 4rem;
+            margin: 0 auto;
+            margin-bottom: 1rem;
+        }
+
+        margin-right: 3rem;
+        margin-bottom: 8rem;
+    }
+}
