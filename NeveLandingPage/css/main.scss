@@ -48,6 +48,17 @@ header {
     max-width: 1rem;
 }
 
+.brand {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+
+    h1 {
+        color: black;
+        font-weight: 600;
+    }
+}
+
 .logo {
     min-width: 3rem;
     max-width: 3rem;
