@@ -37,6 +37,10 @@ header {
     padding: 0 1rem;
 }
 
+.bg-grey {
+    background-color: var(--clrGrey);
+}
+
 .navbar {
     display: flex;
     justify-content: space-between;
@@ -130,7 +134,7 @@ header {
 }
 
 .hero h1 {
-    font-size: 5rem;
+    font-size: 4.3rem;
     margin-bottom: 2rem;
     line-height: 6rem;
 }
@@ -142,11 +146,12 @@ header {
 }
 
 .benefits .container {
-    margin-top: 5rem;
+    // margin-top: 1rem;
     text-align: center;
     display: flex;
     gap: 6rem;
-    margin: 8rem auto;
+    margin: 5rem auto;
+    padding: 0 5rem;
 
     div {
         h2 {
@@ -155,8 +160,8 @@ header {
         }
 
         img {
-            max-width: 4rem;
-            min-width: 4rem;
+            max-width: 3rem;
+            min-width: 3rem;
             margin: 0 auto;
             margin-bottom: 1rem;
         }
@@ -164,7 +169,6 @@ header {
 }
 
 .features .container {
-    background-color: var(--clrGrey);
     padding: 5rem 5rem;
     display: flex;
     justify-content: center;
