@@ -212,4 +212,73 @@ header {
 .features .container .right a {
   display: inline-block;
 }
+
+.featured {
+  margin: 5rem 0;
+}
+
+.featured h1 {
+  text-align: center;
+  text-transform: capitalize;
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+.featured .featured-images {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 1rem;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  color: white;
+}
+
+.featured .featured-images a {
+  text-decoration: none;
+  color: white;
+}
+
+.featured .featured-images p {
+  line-height: 4.5rem;
+}
+
+.featured .featured-images img {
+  display: block;
+  max-width: 32vw;
+  min-width: 10vw;
+  -webkit-transition: 200ms ease-in-out;
+  transition: 200ms ease-in-out;
+}
+
+.featured .featured-images .img-wrapper {
+  position: relative;
+  overflow: hidden;
+}
+
+.featured .featured-images .content {
+  opacity: 0;
+  position: absolute;
+  inset: 0;
+  font-size: 4rem;
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: rgba(0, 0, 0, 0.5);
+  -webkit-transition: 200ms ease-in-out;
+  transition: 200ms ease-in-out;
+}
+
+.featured .featured-images .content:hover,
+.featured .featured-images .content:focus {
+  opacity: 1;
+}
 /*# sourceMappingURL=main.css.map */
