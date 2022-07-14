@@ -163,9 +163,8 @@ header {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  gap: 6rem;
+  gap: 5rem;
   margin: 5rem auto;
-  padding: 0 5rem;
 }
 
 .benefits .container div h2 {
