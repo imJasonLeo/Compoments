@@ -88,7 +88,7 @@ header {
     color: black;
 }
 
-.menu li a:hover {
+.menu li .hover-yllw:hover {
     color: var(--clrYellow);
 }
 
@@ -101,6 +101,10 @@ header {
     border-radius: .3em;
     font-weight: 500;
     margin-left: 3em;
+}
+
+.cta:hover {
+    color: white;
 }
 
 .btn {
@@ -260,27 +264,68 @@ header {
             opacity: 1;
         }
     }
+}
 
-    // margin: 5rem auto;
-    // text-align: center;
+.quotes {
 
-    // h1 {
-    //     text-transform: capitalize;
-    //     font-size: 3rem;
-    //     margin-bottom: 1rem;
-    // }
+    background-color: var(--clrGrey);
 
-    // .featured-images {
+    h1 {
+        text-align: center;
+        text-transform: capitalize;
+        font-size: 3rem;
+        margin-bottom: 2rem;
+        padding-top: 2rem;
+    }
 
-    //     display: flex;
-    //     gap: 1rem;
-    //     justify-content: center;
+    img {
+        max-width: 10vw;
+        min-width: 100px;
+        clip-path: circle();
+        margin: 0 auto;
+        margin-bottom: 1.5rem;
+        aspect-ratio: 1/1;
+        overflow: hidden;
+    }
 
-    //     img {
-    //         // display: block;
-    //         position: relative;
-    //         max-width: 32vw;
-    //         min-width: 10vw;
-    //     }
-    // }
+    p {
+        text-align: center;
+    }
+
+    .members {
+        padding: 3rem 0;
+        display: flex;
+        gap: 5rem;
+        justify-content: center;
+    }
+
+    .quote {
+        margin-bottom: 2rem;
+        width: 20rem;
+    }
+}
+
+.footer {
+    text-align: center;
+    background-color: var(--clrDarkGrey);
+    color: var(--clrWhite);
+    padding: 10rem;
+
+    h1 {
+        font-size: 3rem;
+        padding-bottom: 3rem;
+        width: 45rem;
+        margin: 0 auto;
+    }
+
+    a {
+        margin-top: 3rem;
+        color: black;
+        text-decoration: none;
+        display: inline-block;
+    }
+
+    p {
+        font-size: 1.5rem;
+    }
 }
