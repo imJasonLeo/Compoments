@@ -1,0 +1,79 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Share Tech Mono', monospace;
+}
+
+.full-screen-container {
+    background-image: url(images/bg.jpg);
+    height: 100vh;
+    width: 100vw;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-container {
+    background-color: hsla(120, 100%, 12%, 0.5);
+    padding: 4rem;
+    min-width: 400px;
+    width: 50%;
+    max-width: 600px;
+    color: hsl(120, 100%, 50%);
+}
+
+.login-title {
+    text-align: center;
+    margin-bottom: 1.5rem;
+    font-weight: normal;
+    font-size: 2.5rem;
+}
+
+.input-group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1rem;
+}
+
+.input-group label {
+    font-weight: normal;
+    font-size: 1.5rem;
+    margin-bottom: .3rem;
+}
+
+.input-group input {
+    outline: none;
+    background-color: hsla(120, 100%, 50%, 0.281);
+    color: hsl(120, 100%, 50%);
+    font-size: 1.5rem;
+    border: 1px solid hsl(120, 100%, 7%);
+    padding: .5rem;
+    /* width: 30rem; */
+}
+
+.input-group input:focus {
+    border: 1px solid hsl(120, 100%, 50%);
+}
+
+.login-button {
+    background: hsla(120, 100%, 50%, 0.281);
+    color: hsl(120, 100%, 50%);
+    padding: .5rem 1rem;
+    margin-top: 2rem;
+    width: 100%;
+    font-size: 1.5rem;
+    border: 1px solid hsl(120, 100%, 7%);
+    outline: none;
+    cursor: pointer;
+}
+
+.login-button:hover {
+    border: 1px solid hsl(120, 100%, 50%);
+}
+
+.login-button:focus {
+    background: hsl(120, 100%, 50%);
+}
