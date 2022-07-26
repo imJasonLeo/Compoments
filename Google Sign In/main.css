@@ -142,16 +142,24 @@ h3 {
 
 @media (max-width: 500px) {
 
+    body {
+        overflow: hidden;
+    }
+
     .fullscreen {
         justify-content: space-between;
+        align-items: center;
+        height: 100vh;
     }
 
     .container {
         border: none;
+        width: 90%;
+        padding: 0 1rem;
     }
 
     .footer {
-        margin-bottom: 1rem;
+        margin-bottom: 2rem;
         width: 80%;
     }
 }
