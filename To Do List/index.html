@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;400;500;600;900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <h1 class="title">Stuff I Need To Do</h1>
+
+    <section class="main">
+
+        <div class="my-lists-container">
+            <h2>My Lists</h2>
+
+            <ul class="my-lists">
+                <li class="list selected-list" id="list-1">YouTube</li>
+                <li class="list" id="list-2">Work</li>
+                <li class="list" id="list-3">Grocery</li>
+            </ul>
+
+            <form action="" class="new-list-wrapper">
+                <input type="text" placeholder="new list name" class="new-list-input" aria-label="new list name">
+                <button class="new-btn" aria-label="create new list">+</button>
+            </form>
+        </div>
+
+        <div class="tasks-container">
+            <div class="tasks-header">
+                <h2>YouTube</h2>
+                <p>3 tasks remaining</p>
+            </div>
+
+            <div class="tasks-main">
+                <div class="task">
+                    <input type="checkbox" id="task-1">
+                    <label for="task-1">
+                        First task
+                    </label>
+                </div>
+
+                <div class="task">
+                    <input type="checkbox" id="task-2">
+                    <label for="task-2">
+                        Second task
+                    </label>
+                </div>
+
+                <div class="task">
+                    <input type="checkbox" id="task-3">
+                    <label for="task-3">
+                        Third task
+                    </label>
+                </div>
+
+                <form action="" class="new-task-wrapper">
+                    <input type="text" placeholder="new task name" class="new-task-input" aria-label="new task name">
+                    <button class="new-btn" aria-label="create new task">+</button>
+                </form>
+            </div>
+
+            <div class="manage-tasks">
+                <button id="clear-completed-tasks-btn">Create Completed Tasks</button>
+                <button id="delete-list-btn">Delete List</button>
+            </div>
+
+        </div>
+
+    </section>
+
+</body>
+
+</html>
