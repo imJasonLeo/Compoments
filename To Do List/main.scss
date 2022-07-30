@@ -243,6 +243,11 @@ body {
     font-weight: 600;
 }
 
+.task {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.144);
+    padding-bottom: 1rem;
+}
+
 .manage-tasks button:hover,
 .manage-tasks button:focus {
     color: rgb(29, 29, 29);
