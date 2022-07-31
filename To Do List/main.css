@@ -250,6 +250,11 @@ body {
   scale: 1.1;
 }
 
+.task input[type='checkbox']:checked + label {
+  opacity: .4;
+  text-decoration: line-through;
+}
+
 .manage-tasks button {
   padding: .5rem 1rem;
   border-radius: 5rem;
