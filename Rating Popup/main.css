@@ -3,6 +3,12 @@
 *::after {
     box-sizing: border-box;
     margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: #141519;
+    color: white;
 }
 
 .fullscreen-container {
@@ -13,21 +19,32 @@
     align-items: center;
 }
 
-.rating-widget {
-    width: 20%;
-    border: 1px solid rgba(0, 0, 0, 0.10);
+.rating-widget,
+.confirmation-msg {
+    width: 25rem;
     display: flex;
     flex-direction: column;
     gap: 1.5rem;
     padding: 2rem;
+
+    background-color: #212832;
+    border-radius: 1rem;
+}
+
+.rating-widget p {
+    font-size: .8rem;
+    line-height: 1.3rem;
+    color: rgba(255, 255, 255, 0.50);
+    font-weight: 400;
 }
 
 .icon {
-    width: 2rem;
-    height: 2rem;
+    width: 3rem;
+    height: 3rem;
     display: block;
     text-align: center;
-    background-color: rgba(255, 0, 0, 0.50);
+    background-color: #2A2F35;
+    color: #FC7613;
     border-radius: 50%;
 }
 
@@ -39,11 +56,21 @@
 
 .rating-btn {
     border: none;
-    background-color: rgba(255, 0, 0, 0.50);
-    color: white;
+    background-color: #2A2F35;
+    color: rgba(255, 255, 255, 0.50);
     text-align: center;
-    padding: .7rem 1rem;
+    padding: .7rem 1.2rem;
     border-radius: 50%;
+}
+
+.rating-btn:hover {
+    background-color: #717c8a;
+    cursor: pointer;
+}
+
+.rating-btn:focus {
+    background-color: #FC7613;
+    cursor: pointer;
 }
 
 .rating-form {
@@ -56,4 +83,67 @@
     border-radius: 1rem;
     text-transform: uppercase;
     border: none;
+    background-color: #FC7613;
+    color: white;
+}
+
+.submit-btn:hover {
+    cursor: pointer;
+}
+
+.submit-btn:focus {
+    background-color: white;
+    color: #FC7613;
+}
+
+.confirmation-msg {
+    align-items: center;
+    text-align: center;
+    justify-content: space-between;
+    color: rgba(255, 255, 255, 0.50);
+}
+
+.user-selection-confirm {
+    background-color: #262F38;
+    padding: .5rem 1rem;
+    border-radius: 2rem;
+    font-size: .8rem;
+}
+
+.highlighted-paragraph-text {
+    color: #FC7613;
+}
+
+.confirmation-msg h1 {
+    font-size: 1.5rem;
+    color: white;
+}
+
+.confirmation-msg p {
+    font-size: .8rem;
+    line-height: 1.3rem;
+    font-weight: 400;
+}
+
+.hidden {
+    display: none;
+}
+
+.btn {
+    display: block;
+    background-color: #FC7613;
+    padding: .7rem 0;
+    width: 100%;
+    text-decoration: none;
+    color: white;
+    font-size: .8rem;
+    text-transform: uppercase;
+    border-radius: 1rem;
+}
+
+.btn:hover,
+.btn:focus {
+    cursor: pointer;
+    background-color: white;
+    color: #FC7613;
 }
