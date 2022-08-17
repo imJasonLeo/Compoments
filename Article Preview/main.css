@@ -73,6 +73,10 @@
     align-items: center;
 }
 
+.profile .profile-info .profile-text h3 {
+    margin-bottom: .3rem;
+}
+
 .share {
     position: relative;
 }
