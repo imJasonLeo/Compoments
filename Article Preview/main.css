@@ -50,7 +50,7 @@
     display: flex;
     flex-direction: column;
     gap: 1rem;
-    width: 100rem
+    width: 100rem;
 }
 
 .profile-info>img {
@@ -139,8 +139,47 @@
     color: #90a0be;
 }
 
+@media (max-width: 850px) {
+    .container {
+        flex-direction: column;
+        width: 20rem;
+        gap: 0rem;
+    }
 
-/* IN JS CHANGE VIS ON BUTTON CLICK */
-/* .share:hover .share-tooltip {
-    visibility: visible;
-} */
+    .featured-img {
+        width: 20rem;
+        aspect-ratio: 10 / 7;
+        object-fit: fill;
+        object-position: bottom;
+        border-top-right-radius: 1rem;
+        border-bottom-left-radius: 0rem;
+    }
+
+    .article-text {
+        width: 18rem;
+        padding: 1rem;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+    }
+
+    .article-text h2 {
+        font-size: 1.4rem;
+    }
+
+    .article-text p {
+        font-size: 1rem;
+    }
+
+    .profile .profile-info img {
+        height: 3rem;
+        width: 3rem;
+    }
+
+    .profile .profile-text h3 {
+        font-size: .9rem;
+    }
+
+    .profile .profile-text p {
+        font-size: .8rem;
+    }
+}
