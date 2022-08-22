@@ -139,6 +139,10 @@
     color: #90a0be;
 }
 
+.share-tooltip .share-btn {
+    display: none;
+}
+
 @media (max-width: 850px) {
     .container {
         flex-direction: column;
@@ -181,5 +185,36 @@
 
     .profile .profile-text p {
         font-size: .8rem;
+    }
+
+    .share .share-tooltip {
+        width: 20rem;
+        height: 5.5rem;
+        margin-left: -16rem;
+        margin-bottom: -5.5rem;
+        border-bottom-left-radius: 1rem;
+        border-bottom-right-radius: 1rem;
+        border-top-left-radius: 0;
+        border-top-right-radius: 0;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .share .share-tooltip h2 {
+        font-size: .9rem;
+    }
+
+    .share .share-tooltip a {
+        height: 2rem;
+        width: 2rem;
+    }
+
+    .share .share-tooltip::after {
+        display: none;
+    }
+
+    .share-tooltip .share-btn {
+        display: unset;
+        /* margin-left: 3rem; */
     }
 }
